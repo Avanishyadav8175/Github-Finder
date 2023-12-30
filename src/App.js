@@ -20,7 +20,7 @@ export default function App() {
 
 
 
-  //  js  : synchronous : step by step 
+ 
 
 
   // line 1
