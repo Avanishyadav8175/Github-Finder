@@ -11,7 +11,8 @@ export default function App() {
   const [inputValue, setInputValue] = useState("");
 
   const [results, setResults] = useState([]);
-
+  const [repositories, setRepositories] = useState([]);
+  const [data, setData] = useState({});
 
   function handleOnChange(event) {
     // console.log(event)
@@ -63,7 +64,7 @@ export default function App() {
   return (
       <main className="main">
 
-        <h2>Project 5: GitHub Account Finder</h2>
+        <h2> GitHub Account Finder</h2>
 
         <div className="search-form">
 

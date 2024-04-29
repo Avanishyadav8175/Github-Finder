@@ -1,10 +1,15 @@
-* {
+body {
+  margin: 0;
+
+  padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  overflow-y: scroll; /* Make the body scrollable */
+  background-color: #f0f0f0; /* Set background color */
+  min-height: 10vh; /* Ensure body fills the entire viewport height */
 }
 
 .app {
-  margin: 0;
   padding: 10px;
 }
 
@@ -12,6 +17,9 @@
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  background-color: azure;
+  border-radius: 4px;
+  padding: 20px;
 }
 
 .search-form {
@@ -24,10 +32,6 @@
 .search-form input,
 .search-form button {
   width: 280px;
-}
-
-.search-form input,
-.search-form button {
   padding: 10px;
   border-radius: 4px;
 }
@@ -38,8 +42,18 @@
 }
 
 .search-form button {
-  margin-left: 10px;
-  background-color: chartreuse;
-  border: 1px solid chartreuse;
+  background-color: rgb(91, 136, 225);
+  border: 1px solid rgb(76, 124, 174);
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+

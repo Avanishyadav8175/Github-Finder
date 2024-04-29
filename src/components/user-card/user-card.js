@@ -24,7 +24,7 @@ export default function UserCard (props) {
                 href={props.accountLink} 
                 target="_blank"
             > {props.username} </a>
-            hi from user card ...
+             Hii from user card ...
         </div>
     )
 }
